@@ -3,7 +3,7 @@ package shoponline.validator;
 import org.springframework.validation.Errors;
 import org.springframework.validation.Validator;
 
-import net.kzn.shoppingbackend.dto.Product;
+import com.sush.BackendShop.dto.Product;
 
 public class ProductValidator  implements Validator {
 	

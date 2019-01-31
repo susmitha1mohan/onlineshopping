@@ -13,7 +13,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.web.multipart.MultipartFile;
 
-import net.kzn.onlineshopping.util.FileUtil;
+import shoponline.util.FileUtil;
 
 public class FileUtil {
 	private static final String ABS_PATH = "E:/JAVAApp/online-shopping/onlineshopping/src/main/webapp/assets/images/";
