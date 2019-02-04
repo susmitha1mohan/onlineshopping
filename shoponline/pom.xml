@@ -24,10 +24,7 @@
 			<artifactId>BackendShop</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
-	
-	
-	
-	
+			
 		<!-- JAVA EE -->
 		<!-- https://mvnrepository.com/artifact/javax/javaee-api -->
 		<dependency>

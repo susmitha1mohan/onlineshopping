@@ -12,8 +12,7 @@
     http://www.springframework.org/schema/mvc/spring-mvc.xsd    
     http://www.springframework.org/schema/webflow-config
     http://www.springframework.org/schema/webflow-config/spring-webflow-config.xsd  
-    
-    
+     
     ">
    
    <context:component-scan base-package="com.sush.shoponline"/>
@@ -25,9 +24,7 @@
 	<mvc:annotation-driven />
 	
 	<mvc:resources location="/assets/" mapping="/resources/**" />
-	
-	
-	
+		
 	<!-- Webflow configuration -->
 	
 	<wf:flow-executor id="flowExecutor"  />
@@ -55,7 +52,6 @@
  	</bean>	
  	
 	<bean id="validator" class="org.springframework.validation.beanvalidation.LocalValidatorFactoryBean"/> 	
+       
       
-         
-        
    </beans>
